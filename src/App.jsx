@@ -4,17 +4,17 @@ function App(){
   const [active, setActive] = useState(true) 
   const [todos, setTodos] = useState([
     {
-      txt: 'Бухнуть',
+      txt: 'Пробежаться',
       complete: active,
       id: Math.random().toString(36).substring(2,9)
     },
     {
-      txt: 'Курнуть',
+      txt: 'Сделать список дел',
       complete: active,
       id: Math.random().toString(36).substring(2,9)
     },
     {
-      txt: 'Нюхнуть',
+      txt: 'Поспать',
       complete: active,
       id: Math.random().toString(36).substring(2,9)
     }

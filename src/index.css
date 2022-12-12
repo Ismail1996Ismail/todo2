@@ -39,10 +39,10 @@ ul {
 li {
   margin: 10px;
   padding: 10px;
-  width: 100px;
   background-color: rgb(225, 196, 196);
   text-align: center;
   border-radius: 20px;
+  
 }
 button {
   width: 100px;
