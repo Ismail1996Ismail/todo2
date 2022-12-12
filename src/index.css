@@ -5,9 +5,48 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.App {
+  width: 900px;
+  margin: auto;
+  background-color: rgb(237, 230, 219);
+  padding: 20px;
+}
+.inputs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.textInput {
+  width: 300px;
+  height: 30px;
+}
+.check {
+  width: 50px;
+  height: 25px;
+}
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+li {
+  margin: 10px;
+  padding: 10px;
+  width: 100px;
+  background-color: rgb(225, 196, 196);
+  text-align: center;
+  border-radius: 20px;
+}
+button {
+  width: 100px;
+  height: 30px;
+  border-radius: 10px;
+  cursor: pointer;
 }
